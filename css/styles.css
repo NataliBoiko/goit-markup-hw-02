@@ -25,16 +25,7 @@ font-weight: 400;
 line-height: 1.5;
 color: #434455;
 }
-.btn {
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-line-height: 1.5;
-align-items: center;
-letter-spacing: 0.04em;
-color: var(--color-action);
-border-radius: 4px;
-cursor: pointer;
-}
+
 /*--------------------HEADER-------------*/
 
 .logo {
@@ -58,14 +49,12 @@ text-decoration: none;
 .header-link:hover,
 .header-link:focus {
 color: var(--color-action); 
-text-decoration: underline;
 }
 .header-link.current {
 color: var(--color-action); 
 }
 .contact-link {
 font-style: normal;
-font-weight: 400;
 line-height: 1.5;
 color: #434455;
 }
@@ -74,7 +63,6 @@ color: #434455;
 color: var(--color-action);
 }
 .address-link {
-font-weight: 400;
 line-height: 1.5;
 color: #434455;
 font-style: normal;
@@ -94,7 +82,6 @@ overflow: hidden;
   /* ------------HERO--------- */
 
 .hero-title {
-font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
@@ -103,6 +90,14 @@ color: #FFFFFF;
 background: var(--color-title);
 }
 .hero-btn {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+line-height: 1.5;
+align-items: center;
+letter-spacing: 0.04em;
+color: var(--color-action);
+border-radius: 4px;
+cursor: pointer;
 color: var(--color-btn-invert);
 background: var(--color-action);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -116,7 +111,6 @@ background-color:#404BBF
 /* -----------------DOING------------------- */
 
 .doing-title {
-font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -126,7 +120,6 @@ color: var(--color-title);
 /* ------------------TEAM-------------------- */
 
 .team-title {
-font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -137,6 +130,14 @@ background: #F4F4FD;
 /* ------------------PORTFOLIO----------- */
 
 .gallery-btn {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+line-height: 1.5;
+align-items: center;
+letter-spacing: 0.04em;
+color: var(--color-action);
+border-radius: 4px;
+cursor: pointer;
 background: #F4F4FD;
 border: 1px solid #E7E9FC;
 }
